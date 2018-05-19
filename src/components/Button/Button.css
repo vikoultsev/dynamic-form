@@ -1,0 +1,23 @@
+.Button {
+	padding: 9px 20px;
+	min-width: 100px;
+	font-size: 14px;
+	line-height: 17px;
+	text-transform: uppercase;
+	user-select: none;
+	cursor: pointer;
+	color: white;
+	background-color: rgb(51, 95, 192);
+	border: none;
+	border-radius: 2px;
+	transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.Button:hover {
+	background-color: rgb(94, 142, 245);
+}
+
+.Button[disabled] {
+	opacity: 0.3;
+	pointer-events: none;
+}

@@ -1,0 +1,19 @@
+.SingleQuestion {
+	display: block;
+}
+
+.SingleQuestion__prompt {
+	margin-bottom: 20px;
+	display: block;
+	font-size: 24px;
+	color: rgb(0, 38, 141);
+}
+
+.SingleQuestion__required {
+	margin-bottom: 10px;
+	font-size: 14px;
+}
+
+.SingleQuestion__data {
+	min-height: 150px;
+}

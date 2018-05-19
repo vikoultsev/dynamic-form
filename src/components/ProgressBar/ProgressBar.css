@@ -1,0 +1,19 @@
+.ProgressBar {
+	position: relative;
+	margin-left: 30px;
+	margin-right: 30px;
+	display: block;
+	height: 5px;
+	background-color: rgb(212, 212, 212);
+	border-radius: 3px;
+}
+
+.ProgressBar__track {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	background-color: rgb(33, 120, 201);
+	border-radius: 3px;
+	transition: width 0.7s ease-out;
+}
